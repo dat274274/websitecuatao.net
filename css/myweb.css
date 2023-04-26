@@ -1,0 +1,428 @@
+body{
+    width: 1360px;
+    height: 800px;
+    background-image: url(../images/chia.jpg);
+  }
+  .meme{
+    width: 50px;
+    height: 50px;
+  }
+  .khungtenhoc{
+    position: absolute;
+    width: 1100px;
+    height: 330px;
+    left: 360px;
+    top: 435px;
+    
+    background: #3333;
+    border-radius: 20px;
+  }
+  .name{
+      color: rgb(8, 7, 7);
+      text-align: center;
+      position: absolute;
+      left:25px;
+      top: 3px;
+      font-size: 18px;
+      font-weight: bold;
+  }
+  .thongtin{
+      color: rgb(8, 7, 7);
+      position: absolute;
+      text-align: center;
+      font-size: 18px;
+  }
+  .card {
+      border-radius: 10%;
+      width: 500px;
+      height: 260px;
+      background: #3333;
+      box-shadow: 0 1px 25px rgba(0,0,0,0.2);
+      position: absolute;
+      transform: translate(-50%, -50%);
+      top: 20%;
+      left: 50%;
+      padding: 12px 10px;
+    }
+    img{
+      border-radius: 100%;
+      width: 200px;
+      height: 200px;
+    }
+    .card_load {
+      top:30px;
+      width: 200px;
+      height: 200px;
+      position: relative;
+      float: left;
+      background: linear-gradient(120deg, #e5e5e5 30%, #f0f0f0 38%, #f0f0f0 
+      40%, #e5e5e5 48%);
+      border-radius: 50%;
+      background-size: 200% 100%;
+      background-position: 100% 0;
+      animation: load89234 2s infinite;
+    }
+    
+    .card_load_extreme_title {
+      top:45px;
+      width: 250px;
+      height: 30px;
+      position: relative;
+      float: right;
+      border-radius: 5px;
+      background: linear-gradient(120deg, #3333 30%, #3333 38%, #3333 
+      40%, #3333 48%);
+      background-size: 200% 100%;
+      background-position: 100% 0;
+      animation: load89234 2s infinite;
+    }
+    
+    .card_load_extreme_descripion {
+      top: 70px;;
+      width: 250px;
+      height: 117px;
+      position: relative;
+      float: right;
+      border-radius: 5px;
+      background: linear-gradient(120deg, #3333 30%, #3333 38%, #3333 
+      40%, #3333 48%);
+      margin-top: 10px;
+      background-size: 200% 100%;
+      background-position: 100% 0;
+      animation: load89234 2s infinite;
+    }
+    
+    @keyframes load89234 {
+      100% {
+        background-position: -100% 0;
+      }
+    }
+    
+    /* Thêm lề ở cuối để tăng kích thước của mã CSS khoảng 100px */
+      
+    .card_load_extreme_descripion {
+      margin-bottom: 10px;
+    }
+    .button1{
+      position: absolute;
+      width: 160px;
+      height: 60px;
+      position: relative;
+      padding: 12px 35px;
+      background: #694e4e;
+      font-size: 17px;
+      font-weight: 500;
+      color: #FEC195;
+      border: 3px solid #FEC195;
+      border-radius: 20px;
+      box-shadow: 0 0 0 #fec1958c;
+      transition: all .3s ease-in-out;
+      left: 50px;
+      top: 50px;
+  
+    }
+    .toanhoc{
+      text-decoration: none;
+    }
+  .button2{
+    position: absolute;
+    width: 160px;
+    height: 60px;
+    position: relative;
+    padding: 12px 35px;
+    background: #694e4e;
+    font-size: 17px;
+    font-weight: 500;
+    color: #FEC195;
+    border: 3px solid #FEC195;
+    border-radius: 20px;
+    box-shadow: 0 0 0 #fec1958c;
+    transition: all .3s ease-in-out;
+    left: 95px;
+    top: 50px;
+  
+  }
+  .hoahoc{
+    text-decoration: none;
+  }
+  .button3{
+    position: absolute;
+    width: 160px;
+    height: 60px;
+    position: relative;
+    padding: 12px 35px;
+    background: #694e4e;
+    font-size: 17px;
+    font-weight: 500;
+    color: #FEC195;
+    border: 3px solid #FEC195;
+    border-radius: 20px;
+    box-shadow: 0 0 0 #fec1958c;
+    transition: all .3s ease-in-out;
+    left: 140px;
+    top: 50px;
+  }
+  .vatly{
+    text-decoration: none;
+  }
+  .button4{
+    position: absolute;
+    width: 160px;
+    height: 60px;
+    position: relative;
+    padding: 12px 35px;
+    background: #694e4e;
+    font-size: 17px;
+    font-weight: 500;
+    color: #FEC195;
+    border: 3px solid #FEC195;
+    border-radius: 20px;
+    box-shadow: 0 0 0 #fec1958c;
+    transition: all .3s ease-in-out;
+    left: 185px;
+    top: 50px;
+  }
+  .sinhhoc{
+    text-decoration: none;
+  }
+  .button5{
+    position: absolute;
+    width: 160px;
+    height: 60px;
+    position: relative;
+    padding: 12px 35px;
+    background: #694e4e;
+    font-size: 17px;
+    font-weight: 500;
+    color: #FEC195;
+    border: 3px solid #FEC195;
+    border-radius: 20px;
+    box-shadow: 0 0 0 #fec1958c;
+    transition: all .3s ease-in-out;
+    left: 230px;
+    top: 50px;
+  }
+  .tinhoc{
+    text-decoration: none;
+  }
+  .button6{
+    position: absolute;
+    width: 160px;
+    height: 60px;
+    position: relative;
+    padding: 12px 35px;
+    background: #694e4e;
+    font-size: 17px;
+    font-weight: 500;
+    color: #FEC195;
+    border: 3px solid #FEC195;
+    border-radius: 20px;
+    box-shadow: 0 0 0 #fec1958c;
+    transition: all .3s ease-in-out;
+    left: 65px;
+    top: 195px;
+  
+  }
+  .button7{
+    position: absolute;
+    width: 160px;
+    height: 60px;
+    position: relative;
+    padding: 12px 35px;
+    background: #694e4e;
+    font-size: 17px;
+    font-weight: 500;
+    color: #FEC195;
+    border: 3px solid #FEC195;
+    border-radius: 20px;
+    box-shadow: 0 0 0 #fec1958c;
+    transition: all .3s ease-in-out;
+    left: 50px;
+    top: 140px;
+  }
+  .button8{
+    position: absolute;
+    width: 160px;
+    height: 60px;
+    position: relative;
+    padding: 12px 35px;
+    background: #694e4e;
+    font-size: 17px;
+    font-weight: 500;
+    color: #FEC195;
+    border: 3px solid #FEC195;
+    border-radius: 20px;
+    box-shadow: 0 0 0 #fec1958c;
+    transition: all .3s ease-in-out;
+    left: 95px;
+    top: 140px;
+  }
+  .button9{
+    position: absolute;
+    width: 160px;
+    height: 60px;
+    position: relative;
+    padding: 12px 35px;
+    background: #694e4e;
+    font-size: 17px;
+    font-weight: 500;
+    color: #FEC195;
+    border: 3px solid #FEC195;
+    border-radius: 20px;
+    box-shadow: 0 0 0 #fec1958c;
+    transition: all .3s ease-in-out;
+    left: 140px;
+    top: 135px;
+  }
+  .button10{
+    position: absolute;
+    width: 160px;
+    height: 60px;
+    position: relative;
+    padding: 12px 35px;
+    background: #694e4e;
+    font-size: 17px;
+    font-weight: 500;
+    color: #FEC195;
+    border: 3px solid #FEC195;
+    border-radius: 20px;
+    box-shadow: 0 0 0 #fec1958c;
+    transition: all .3s ease-in-out;
+    left: 185px;
+    top: 130px;
+  }
+    .star-1 {
+      position: absolute;
+      top: 20%;
+      left: 20%;
+      width: 25px;
+      height: auto;
+      filter: drop-shadow(0 0 0 #fffdef);
+      z-index: -5;
+      transition: all 1s cubic-bezier(0.05, 0.83, 0.43, 0.96);
+    }
+    
+    .star-2 {
+      position: absolute;
+      top: 45%;
+      left: 45%;
+      width: 15px;
+      height: auto;
+      filter: drop-shadow(0 0 0 #fffdef);
+      z-index: -5;
+      transition: all 1s cubic-bezier(0, 0.4, 0, 1.01);
+    }
+    
+    .star-3 {
+      position: absolute;
+      top: 40%;
+      left: 40%;
+      width: 5px;
+      height: auto;
+      filter: drop-shadow(0 0 0 #fffdef);
+      z-index: -5;
+      transition: all 1s cubic-bezier(0, 0.4, 0, 1.01);
+    }
+    
+    .star-4 {
+      position: absolute;
+      top: 20%;
+      left: 40%;
+      width: 8px;
+      height: auto;
+      filter: drop-shadow(0 0 0 #fffdef);
+      z-index: -5;
+      transition: all .8s cubic-bezier(0, 0.4, 0, 1.01);
+    }
+    
+    .star-5 {
+      position: absolute;
+      top: 25%;
+      left: 45%;
+      width: 15px;
+      height: auto;
+      filter: drop-shadow(0 0 0 #fffdef);
+      z-index: -5;
+      transition: all .6s cubic-bezier(0, 0.4, 0, 1.01);
+    }
+    
+    .star-6 {
+      position: absolute;
+      top: 5%;
+      left: 50%;
+      width: 5px;
+      height: auto;
+      filter: drop-shadow(0 0 0 #fffdef);
+      z-index: -5;
+      transition: all .8s ease;
+    }
+    
+    button:hover {
+      background: transparent;
+      color: #FEC195;
+      box-shadow: 0 0 25px #fec1958c;
+    }
+    
+    button:hover .star-1 {
+      position: absolute;
+      top: -80%;
+      left: -30%;
+      width: 25px;
+      height: auto;
+      filter: drop-shadow(0 0 10px #fffdef);
+      z-index: 2;
+    }
+    
+    button:hover .star-2 {
+      position: absolute;
+      top: -25%;
+      left: 10%;
+      width: 15px;
+      height: auto;
+      filter: drop-shadow(0 0 10px #fffdef);
+      z-index: 2;
+    }
+    
+    button:hover .star-3 {
+      position: absolute;
+      top: 55%;
+      left: 25%;
+      width: 5px;
+      height: auto;
+      filter: drop-shadow(0 0 10px #fffdef);
+      z-index: 2;
+    }
+    
+    button:hover .star-4 {
+      position: absolute;
+      top: 30%;
+      left: 80%;
+      width: 8px;
+      height: auto;
+      filter: drop-shadow(0 0 10px #fffdef);
+      z-index: 2;
+    }
+    
+    button:hover .star-5 {
+      position: absolute;
+      top: 25%;
+      left: 115%;
+      width: 15px;
+      height: auto;
+      filter: drop-shadow(0 0 10px #fffdef);
+      z-index: 2;
+    }
+    
+    button:hover .star-6 {
+      position: absolute;
+      top: 5%;
+      left: 60%;
+      width: 5px;
+      height: auto;
+      filter: drop-shadow(0 0 10px #fffdef);
+      z-index: 2;
+    }
+    
+    .fil0 {
+      fill: #FFFDEF
+    }
